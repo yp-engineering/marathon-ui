@@ -1,23 +1,25 @@
+var Util = require("../helpers/Util");
+
 const ContainerConstants = {
-  NETWORK: {
+  network: {
     BRIDGE: "BRIDGE",
     HOST: "HOST"
   },
-  PORTMAPPINGS: {
-    PROTOCOL: {
+  portMappings: {
+    protocol: {
       TCP: "tcp",
       UDP: "udp"
     }
   },
-  TYPE: {
+  type: {
     DOCKER: "DOCKER"
   },
-  VOLUMES: {
-    MODE: {
+  volumes: {
+    mode: {
       RO: "RO",
       RW: "RW"
     }
   }
 };
 
-module.exports = Object.freeze(ContainerConstants);
+module.exports = Util.deepFreeze(ContainerConstants);
