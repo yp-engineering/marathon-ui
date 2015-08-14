@@ -39,6 +39,7 @@
 - \#1872 - Kill & Scale should be available for more than one task
 - \#1960 - Task detail error message doesn't show up on non existent task
 - \#1989 - HealthBar isn't working correctly on non existing health data
+- \#1996 - Duplicable fields in app creation modal can send null values
 
 ## 0.10.0 - 2015-07-10
 ### Added
